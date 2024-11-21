@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Trading Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Stock Trading Game</h1>
+    <div id="game-container">
+        <!-- Cash Balance -->
+        <div id="cash-balance"></div>
+
+        <!-- Stock Market Section -->
+        <h2>Stock Market</h2>
+        <table id="stock-table">
+            <thead>
+                <tr>
+                    <th>Stock</th>
+                    <th>Price ($)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Stocks will be dynamically inserted here -->
+            </tbody>
+        </table>
+
+        <!-- Portfolio Section -->
+        <h2>Your Portfolio</h2>
+        <table id="portfolio-table">
+            <thead>
+                <tr>
+                    <th>Stock</th>
+                    <th>Shares Owned</th>
+                    <th>Total Value ($)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Portfolio items will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
